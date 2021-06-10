@@ -19,6 +19,7 @@ public class UserApp {
 			userArray[i].showInfo();
 		}
 		
+		System.out.println(e01.name + "의 월급은 " + ((Employee)e01).getSalary() + "원 입니다.");
 		
 	}
 
