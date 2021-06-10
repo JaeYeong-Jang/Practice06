@@ -7,8 +7,6 @@ public class SmartPhone extends MusicPhone {
         //코드작성
         if("앱".equals(str)) {
         	app();
-        }else if("음악".equals(str)) {
-        	playMusic();
         }else {
         	super.execute(str);
         }
